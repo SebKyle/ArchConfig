@@ -1,0 +1,42 @@
+/* ╔══════════════════════════════════════════════════════════════════╗
+   ║  rofi — application launcher                                     ║
+   ║                                                                  ║
+   ║  rofi 2.0 merged Wayland support upstream, so the old separate   ║
+   ║  `rofi-wayland` package is gone -- install plain `rofi`.         ║
+   ║                                                                  ║
+   ║  Docs: `man rofi`, `man rofi-theme`                              ║
+   ╚══════════════════════════════════════════════════════════════════╝ */
+
+configuration {
+    modes:                       "drun,run,window,filebrowser";
+    font:                        "JetBrainsMono Nerd Font 11";
+
+    show-icons:                  true;
+    icon-theme:                  "Papirus-Dark";
+    display-drun:                "apps";
+    display-run:                 "run";
+    display-window:              "window";
+    display-filebrowser:         "files";
+    drun-display-format:         "{name}";
+    window-format:               "{w} · {c} · {t}";
+
+    terminal:                    "kitty";
+    disable-history:             false;
+    sidebar-mode:                false;
+    hover-select:                true;
+    me-select-entry:             "";
+    me-accept-entry:             "MousePrimary";
+
+    /* Sort by how often you actually launch things. */
+    sorting-method:              "fzf";
+    matching:                    "fuzzy";
+    drun-match-fields:           "name,generic,exec,categories,keywords";
+
+    kb-cancel:                   "Escape,MouseSecondary";
+    kb-row-up:                   "Up,Control+k";
+    kb-row-down:                 "Down,Control+j";
+    kb-mode-next:                "Shift+Right,Control+Tab";
+    kb-mode-previous:            "Shift+Left,Control+Shift+Tab";
+}
+
+@theme "~/.config/rofi/themes/pywal.rasi"

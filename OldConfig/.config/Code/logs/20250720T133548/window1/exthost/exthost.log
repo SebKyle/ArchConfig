@@ -1,0 +1,15 @@
+2025-07-20 13:35:50.654 [info] Extension host with pid 2580 started
+2025-07-20 13:35:50.654 [info] Skipping acquiring lock for /home/sebkyle/.config/Code/User/workspaceStorage/49fc8497484352efc73391e8f48efc89.
+2025-07-20 13:35:50.811 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-20 13:35:50.840 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-20 13:35:50.861 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-07-20 13:35:51.309 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-07-20 13:35:51.385 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-07-20 13:35:51.913 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-20 13:35:51.924 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-20 13:35:51.998 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-20 13:35:52.107 [info] Eager extensions activated
+2025-07-20 13:35:52.123 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-20 13:35:52.127 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-20 13:51:16.834 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-20 13:51:16.859 [info] Extension host with pid 2580 exiting with code 0

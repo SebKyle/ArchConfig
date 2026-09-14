@@ -1,0 +1,26 @@
+# KDE apps (Dolphin, Ark, Gwenview) read kdeglobals even when Plasma is not
+# running. Without it Dolphin falls back to Breeze icons and its own colours,
+# which is what makes it look out of place on a non-KDE desktop.
+
+[General]
+TerminalApplication=kitty
+TerminalService=kitty.desktop
+BrowserApplication=firefox.desktop
+
+[Icons]
+Theme=Papirus-Dark
+
+[KDE]
+SingleClick=false
+AnimationDurationFactor=0.5
+ShowDeleteCommand=false
+widgetStyle=kvantum-dark
+
+[UiSettings]
+ColorScheme=BreezeDark
+
+[WM]
+activeBackground=30,30,40
+activeForeground=222,222,238
+inactiveBackground=24,24,32
+inactiveForeground=155,155,166

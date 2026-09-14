@@ -1,0 +1,23 @@
+2025-07-12 11:41:15.212 [info] Getting Manifest... ms-python.python
+2025-07-12 11:41:15.459 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json","path":"/home/sebkyle/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-07-12 11:41:16.417 [info] Getting Manifest... ms-python.vscode-pylance
+2025-07-12 11:41:16.419 [info] Getting Manifest... ms-python.debugpy
+2025-07-12 11:41:16.489 [info] Getting Manifest... ms-python.debugpy
+2025-07-12 11:41:16.566 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json","path":"/home/sebkyle/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-07-12 11:41:16.610 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json","path":"/home/sebkyle/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-12 11:41:16.610 [info] Waiting for already requested installing extension ms-python.debugpy ms-python.python vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json
+2025-07-12 11:41:16.741 [info] Getting Manifest... ms-python.python
+2025-07-12 11:41:17.756 [info] Getting Manifest... ms-python.vscode-pylance
+2025-07-12 11:41:24.717 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 1602ms.
+2025-07-12 11:41:24.794 [info] Extension signature verification result for ms-python.debugpy: Success. Internal Code: 0. Executed: true. Duration: 2208ms.
+2025-07-12 11:41:25.246 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 1213ms.
+2025-07-12 11:41:25.392 [info] Extracted extension to file:///home/sebkyle/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64: ms-python.debugpy
+2025-07-12 11:41:25.415 [info] Renamed to /home/sebkyle/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64
+2025-07-12 11:41:25.431 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json
+2025-07-12 11:41:25.431 [info] Finished waiting for already requested installing extension ms-python.debugpy ms-python.python vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json
+2025-07-12 11:41:26.337 [info] Extracted extension to file:///home/sebkyle/.vscode/extensions/ms-python.python-2025.10.0-linux-x64: ms-python.python
+2025-07-12 11:41:26.416 [info] Renamed to /home/sebkyle/.vscode/extensions/ms-python.python-2025.10.0-linux-x64
+2025-07-12 11:41:29.310 [info] Extracted extension to file:///home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.4.1: ms-python.vscode-pylance
+2025-07-12 11:41:29.551 [info] Renamed to /home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.4.1
+2025-07-12 11:41:29.573 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json
+2025-07-12 11:41:29.573 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json

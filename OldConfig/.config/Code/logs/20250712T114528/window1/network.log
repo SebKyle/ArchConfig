@@ -1,0 +1,4 @@
+2025-07-12 11:45:32.196 [error] #1: https://www.vscode-unpkg.net/_gallery/ms-python/debugpy/latest - error GET Failed to fetch
+2025-07-12 11:45:32.197 [error] #2: https://www.vscode-unpkg.net/_gallery/ms-python/python/latest - error GET Failed to fetch
+2025-07-12 11:45:32.198 [error] #3: https://www.vscode-unpkg.net/_gallery/ms-python/vscode-pylance/latest - error GET Failed to fetch
+2025-07-12 11:45:32.209 [error] #4: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch

@@ -1,0 +1,8 @@
+# Kvantum is the Qt style engine qt5ct/qt6ct point at (style=kvantum-dark).
+# KvLibadwaitaDark ships with the `kvantum` package and is the closest match
+# to a flat dark GTK/Adwaita look, so Qt and GTK apps sit next to each other
+# without clashing.
+#
+# To browse and preview other themes, run: kvantummanager
+[General]
+theme=KvLibadwaitaDark

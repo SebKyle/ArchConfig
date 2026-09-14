@@ -1,0 +1,6 @@
+2025-07-20 13:35:50.110 [info] Started local extension host with pid 2580.
+2025-07-20 13:35:51.572 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-20 13:35:52.793 [info] [perf] Render performance baseline is 23ms
+2025-07-20 13:39:59.626 [error] Cannot read the extension from /home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2: ScanningExtension: Cannot read the extension from /home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2
+    at dh.scanLocalExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:71916)
+    at async ph.h (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:77100)

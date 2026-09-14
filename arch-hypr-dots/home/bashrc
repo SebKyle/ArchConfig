@@ -1,0 +1,57 @@
+# ~/.bashrc — interactive shells only.
+[[ $- != *i* ]] && return
+
+# ── History ────────────────────────────────────────────────────────────
+HISTSIZE=10000
+HISTFILESIZE=20000
+HISTCONTROL=ignoreboth:erasedups
+shopt -s histappend checkwinsize cdspell autocd globstar
+
+# ── Prompt ─────────────────────────────────────────────────────────────
+if command -v starship >/dev/null 2>&1; then
+    eval "$(starship init bash)"
+else
+    PS1='\[\e[1;35m\]\u\[\e[0m\]@\[\e[1;36m\]\h\[\e[0m\] \[\e[1;34m\]\w\[\e[0m\] \$ '
+fi
+
+# ── pywal ──────────────────────────────────────────────────────────────
+# Replay the saved palette into every new terminal so colours survive a
+# reboot. Guarded so a missing cache never breaks the shell.
+if [[ -f ~/.cache/wal/sequences ]]; then
+    (cat ~/.cache/wal/sequences &) 2>/dev/null
+fi
+
+# ── Aliases ────────────────────────────────────────────────────────────
+alias ls='ls --color=auto --group-directories-first'
+alias ll='ls -lh'
+alias la='ls -lah'
+alias grep='grep --color=auto'
+alias ip='ip -color=auto'
+alias df='df -h'
+alias free='free -h'
+alias ..='cd ..'
+alias ...='cd ../..'
+
+# Arch
+alias update='sudo pacman -Syu'
+alias aur='yay -Syu'
+alias orphans='pacman -Qtdq'
+alias cleanup='sudo pacman -Rns $(pacman -Qtdq) 2>/dev/null || echo "no orphans"'
+# Largest installed packages first (a function, because aliases cannot take
+# positional parameters and awk's $1 would be eaten by the shell).
+pkgsize() {
+    pacman -Qi | awk '/^Name/ {n=$3} /^Installed Size/ {print $4 $5, n}' | sort -h
+}
+
+# Hyprland
+alias hypr-reload='hyprctl reload'
+alias hypr-log='tail -f "$XDG_RUNTIME_DIR/hypr/$HYPRLAND_INSTANCE_SIGNATURE/hyprland.log"'
+alias hypr-binds='hyprctl binds'
+alias hypr-clients='hyprctl clients'
+
+# Dotfiles + wallpaper
+alias setwall='$HOME/.config/hypr/scripts/setwall.sh'
+alias wallpick='$HOME/.config/hypr/scripts/wallpaper-picker.sh'
+
+# ── Greeting ───────────────────────────────────────────────────────────
+command -v fastfetch >/dev/null 2>&1 && fastfetch

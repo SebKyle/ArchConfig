@@ -1,0 +1,44 @@
+# Not installed by default. `./install.sh --optional` adds these, or just
+# pick what you want by hand.
+
+# Browsers
+firefox
+chromium
+
+# Development
+neovim
+visual-studio-code-bin        # AUR
+docker
+docker-compose
+
+# Media / graphics
+gwenview                      # image viewer (referenced in mimeapps.list)
+okular                        # PDF viewer (referenced in mimeapps.list)
+kate                          # text editor (referenced in mimeapps.list)
+obs-studio
+gimp
+krita
+
+# System
+btop                          # bound to the cpu/memory bar modules
+fzf
+ripgrep
+fd
+bat
+eza
+zoxide
+timeshift
+
+# Bluetooth -- enable bluetooth.service afterwards
+bluez
+bluez-utils
+blueman
+
+# Gaming
+steam                         # needs multilib enabled in /etc/pacman.conf
+lutris
+gamemode
+
+# Laptop
+tlp
+powertop

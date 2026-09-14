@@ -1,0 +1,186 @@
+// ╔════════════════════════════════════════════════════════════════════╗
+// ║  Waybar — https://github.com/Alexays/Waybar/wiki                   ║
+// ║  Man pages: waybar(5), waybar-hyprland-workspaces(5), ...          ║
+// ╚════════════════════════════════════════════════════════════════════╝
+{
+  "layer": "top",
+  "position": "top",
+  "height": 34,
+  "spacing": 4,
+  "margin-top": 4,
+  "margin-left": 8,
+  "margin-right": 8,
+
+  "modules-left":   ["custom/logo", "hyprland/workspaces", "hyprland/submap"],
+  "modules-center": ["hyprland/window"],
+  "modules-right":  ["tray", "idle_inhibitor", "cpu", "memory", "backlight",
+                     "pulseaudio", "network", "battery", "custom/notification", "clock", "custom/power"],
+
+  // ── Left ───────────────────────────────────────────────────────────
+  "custom/logo": {
+    "format": "󰣇",
+    "tooltip-format": "Application launcher",
+    "on-click": "rofi -show drun"
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "sort-by": "id",
+    "all-outputs": true,
+    "show-special": false,
+    "format-icons": {
+      "active":  "",
+      "default": "",
+      "empty":   "",
+      "urgent":  ""
+    },
+    "persistent-workspaces": {
+      "1": [], "2": [], "3": [], "4": [], "5": []
+    }
+  },
+
+  "hyprland/submap": {
+    "format": "󰌌 {}",
+    "tooltip": false
+  },
+
+  // ── Center ─────────────────────────────────────────────────────────
+  "hyprland/window": {
+    "format": "{title}",
+    "max-length": 60,
+    "separate-outputs": true,
+    "rewrite": {
+      "(.*) — Mozilla Firefox": "󰈹  $1",
+      "(.*) - Visual Studio Code": "󰨞  $1",
+      "(.*) — Dolphin": "󰉋  $1",
+      "(.*) - Dolphin": "󰉋  $1",
+      "~(.*)": "  ~$1",
+      "": "󰇄  Desktop"
+    }
+  },
+
+  // ── Right ──────────────────────────────────────────────────────────
+  "tray": {
+    "icon-size": 16,
+    "spacing": 8
+  },
+
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": { "activated": "󰅶", "deactivated": "󰛊" },
+    "tooltip-format-activated": "Idle inhibited — screen will stay on",
+    "tooltip-format-deactivated": "Idle not inhibited"
+  },
+
+  "cpu": {
+    "interval": 5,
+    "format": "󰻠 {usage}%",
+    "tooltip": true,
+    "on-click": "kitty -e btop"
+  },
+
+  "memory": {
+    "interval": 10,
+    "format": "󰍛 {percentage}%",
+    "tooltip-format": "{used:0.1f}G / {total:0.1f}G",
+    "on-click": "kitty -e btop"
+  },
+
+  "backlight": {
+    "format": "{icon} {percent}%",
+    "format-icons": ["󰃞", "󰃟", "󰃠"],
+    "on-scroll-up": "brightnessctl -e4 -n2 set 5%+",
+    "on-scroll-down": "brightnessctl -e4 -n2 set 5%-",
+    "tooltip": false
+  },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "󰝟 muted",
+    "format-bluetooth": "󰂰 {volume}%",
+    "format-icons": {
+      "headphone": "󰋋",
+      "headset": "󰋎",
+      "default": ["󰕿", "󰖀", "󰕾"]
+    },
+    "scroll-step": 5,
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "on-click-right": "pavucontrol",
+    "tooltip-format": "{desc} — {volume}%"
+  },
+
+  "network": {
+    "format-wifi": "󰤨 {essid}",
+    "format-ethernet": "󰈀 wired",
+    "format-linked": "󰈀 {ifname} (no IP)",
+    "format-disconnected": "󰤭 offline",
+    "tooltip-format-wifi": "{essid}\n{signalStrength}% · {frequency} MHz\n{ipaddr}/{cidr}\n󰅧 {bandwidthUpBits}  󰅢 {bandwidthDownBits}",
+    "tooltip-format-ethernet": "{ifname}\n{ipaddr}/{cidr}\n󰅧 {bandwidthUpBits}  󰅢 {bandwidthDownBits}",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 24,
+    "on-click": "nm-connection-editor"
+  },
+
+  "battery": {
+    "interval": 30,
+    "states": { "warning": 30, "critical": 15 },
+    "format": "{icon} {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
+    "format-plugged": "󰚥 {capacity}%",
+    "format-full": "󰁹 {capacity}%",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "tooltip-format": "{timeTo} — {power}W"
+  },
+
+  // swaync's own recommended module.
+  "custom/notification": {
+    "tooltip": true,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "<span foreground='#ff6b6b'><sup></sup></span>󰂚",
+      "none": "󰂜",
+      "dnd-notification": "<span foreground='#ff6b6b'><sup></sup></span>󰂛",
+      "dnd-none": "󰂛",
+      "inhibited-notification": "<span foreground='#ff6b6b'><sup></sup></span>󰂚",
+      "inhibited-none": "󰂜",
+      "dnd-inhibited-notification": "<span foreground='#ff6b6b'><sup></sup></span>󰂛",
+      "dnd-inhibited-none": "󰂛"
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+
+  "clock": {
+    "interval": 1,
+    "format": "󰥔 {:%a %d %b  %H:%M}",
+    "format-alt": "󰥔 {:%H:%M:%S}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "mode": "month",
+      "weeks-pos": "right",
+      "format": {
+        "months":  "<span color='#ffffff'><b>{}</b></span>",
+        "days":    "<span color='#cccccc'>{}</span>",
+        "weeks":   "<span color='#99ffdd'><b>W{}</b></span>",
+        "weekdays":"<span color='#ffcc66'><b>{}</b></span>",
+        "today":   "<span color='#ff6699'><b><u>{}</u></b></span>"
+      }
+    },
+    "actions": {
+      "on-click-right": "mode",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
+  },
+
+  "custom/power": {
+    "format": "󰐥",
+    "tooltip-format": "Power menu",
+    "on-click": "~/.config/hypr/scripts/powermenu.sh"
+  }
+}

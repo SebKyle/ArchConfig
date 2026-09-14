@@ -1,0 +1,27 @@
+2025-07-20 13:35:52.744 [info] (Client) Pylance async client (2025.4.1) started with python extension (2025.10.0)
+2025-07-20 13:35:52.869 [info] [Info  - 1:35:52 PM] (2791) Server root directory: file:///home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-07-20 13:35:52.870 [info] [Info  - 1:35:52 PM] (2791) Pylance language server 2025.4.1 (pyright version 1.1.398, commit 4f24eccc) starting
+2025-07-20 13:35:52.870 [info] [Info  - 1:35:52 PM] (2791) Starting service instance "drill" for workspace "/home/sebkyle/drill"
+2025-07-20 13:35:52.922 [info] [Info  - 1:35:52 PM] (2791) Setting environmentName for service "drill": "3.13.2 (global)"
+2025-07-20 13:35:52.922 [info] [Info  - 1:35:52 PM] (2791) Setting pythonPath for service "drill": "/bin/python"
+2025-07-20 13:35:52.923 [info] [Info  - 1:35:52 PM] (2791) No include entries specified; assuming /home/sebkyle/drill
+2025-07-20 13:35:52.923 [info] [Info  - 1:35:52 PM] (2791) Auto-excluding **/node_modules
+2025-07-20 13:35:52.923 [info] [Info  - 1:35:52 PM] (2791) Auto-excluding **/__pycache__
+2025-07-20 13:35:52.923 [info] [Info  - 1:35:52 PM] (2791) Auto-excluding **/.*
+2025-07-20 13:35:52.958 [info] [Info  - 1:35:52 PM] (2791) Assuming Python version 3.13.2.final.0
+2025-07-20 13:35:53.109 [info] [Info  - 1:35:53 PM] (2791) Found 2 source files
+2025-07-20 13:35:53.130 [info] [Info  - 1:35:53 PM] (2791) Setting environmentName for service "drill": "3.13.2 (global)"
+2025-07-20 13:35:53.130 [info] [Info  - 1:35:53 PM] (2791) Setting pythonPath for service "drill": "/bin/python"
+2025-07-20 13:35:53.130 [info] [Info  - 1:35:53 PM] (2791) No include entries specified; assuming /home/sebkyle/drill
+2025-07-20 13:35:53.130 [info] [Info  - 1:35:53 PM] (2791) Auto-excluding **/node_modules
+2025-07-20 13:35:53.130 [info] [Info  - 1:35:53 PM] (2791) Auto-excluding **/__pycache__
+2025-07-20 13:35:53.130 [info] [Info  - 1:35:53 PM] (2791) Auto-excluding **/.*
+2025-07-20 13:35:53.161 [info] [Info  - 1:35:53 PM] (2791) Assuming Python version 3.13.2.final.0
+2025-07-20 13:35:53.225 [info] [Info  - 1:35:53 PM] (2791) Found 2 source files
+2025-07-20 13:35:53.732 [info] [Info  - 1:35:53 PM] (2791) BG: Priority queue background worker(2) root directory: file:///home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-07-20 13:35:53.732 [info] [Info  - 1:35:53 PM] (2791) BG: Priority queue background worker(2) started
+2025-07-20 13:35:54.071 [info] [Info  - 1:35:54 PM] (2791) BG: Indexer background runner(3) root directory: file:///home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (index)
+2025-07-20 13:35:54.071 [info] [Info  - 1:35:54 PM] (2791) BG: Indexing(3) started
+2025-07-20 13:35:54.763 [info] [Info  - 1:35:54 PM] (2791) BG: scanned(3) 29 files over 1 exec env
+2025-07-20 13:35:54.899 [info] [Info  - 1:35:54 PM] (2791) BG: indexed(3) 29 files over 1 exec env
+2025-07-20 13:35:54.913 [info] [Info  - 1:35:54 PM] (2791) BG: Indexing finished(3).

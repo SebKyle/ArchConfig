@@ -1,0 +1,9 @@
+2025-07-12 11:45:31.713 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-07-12 11:45:31.713 [info] Native locator: Refresh started
+2025-07-12 11:45:31.713 [info] Native locator: Refresh started
+2025-07-12 11:45:31.732 [info] > pyenv which python
+2025-07-12 11:45:31.732 [info] cwd: .
+2025-07-12 11:45:31.977 [info] Python interpreter path: /bin/python
+2025-07-12 11:45:32.046 [info] Native locator: Refresh finished in 1085 ms
+2025-07-12 11:45:32.719 [info] Starting Pylance language server.
+2025-07-12 11:45:45.391 [info] Discover tests for workspace name: drill - uri: /home/sebkyle/drill/mapping.py

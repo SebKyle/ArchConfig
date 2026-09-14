@@ -1,0 +1,221 @@
+/* ╔══════════════════════════════════════════════════════════════════╗
+   ║  swaync stylesheet                                               ║
+   ║                                                                  ║
+   ║  swaync is GTK4 and its shipped stylesheet is driven almost      ║
+   ║  entirely by CSS custom properties on :root. So rather than      ║
+   ║  re-implementing the whole thing, we:                            ║
+   ║    1. import the stock stylesheet (so upgrades bring new styles) ║
+   ║    2. import the pywal palette, which redefines those :root vars ║
+   ║    3. add a handful of shape tweaks below                        ║
+   ║                                                                  ║
+   ║  Reload after editing:  swaync-client -rs                        ║
+   ╚══════════════════════════════════════════════════════════════════╝ */
+
+@import url("file:///etc/xdg/swaync/style.css");
+@import url("colors.css");
+
+/* ── Shape and typography ─────────────────────────────────────────── */
+* {
+  font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font", sans-serif;
+  font-size: 14px;
+}
+
+:root {
+  --border-radius: 16px;
+  --notification-icon-size: 56px;
+  --font-size-summary: 15px;
+  --font-size-body: 13px;
+}
+
+/* ── Control centre ───────────────────────────────────────────────── */
+.control-center {
+  border: 1px solid var(--noti-border-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  padding: 4px;
+}
+
+.control-center .control-center-list {
+  padding: 2px;
+}
+
+.control-center-list-placeholder {
+  opacity: 0.4;
+  font-size: 16px;
+}
+
+/* ── Notifications ────────────────────────────────────────────────── */
+.notification-row .notification-background .notification {
+  border: 1px solid var(--noti-border-color);
+}
+
+/* Critical notifications get an unmistakable accent bar. */
+.notification-row .notification-background .notification.critical {
+  border-left: 4px solid var(--wal-urgent);
+}
+
+.notification-row .notification-background .notification.low {
+  opacity: 0.92;
+}
+
+.close-button {
+  min-width: 22px;
+  min-height: 22px;
+}
+
+/* ── Widgets ──────────────────────────────────────────────────────── */
+.widget {
+  background: transparent;
+  padding: 8px;
+  margin: 4px 6px;
+}
+
+.widget-title {
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--text-color);
+  margin: 8px 6px 2px 6px;
+  padding: 0 4px;
+}
+
+.widget-title > button {
+  font-size: 13px;
+  font-weight: normal;
+  color: var(--text-color);
+  background: rgba(var(--noti-bg), var(--noti-bg-alpha));
+  border: 1px solid var(--noti-border-color);
+  border-radius: var(--border-radius);
+  padding: 4px 12px;
+}
+
+.widget-title > button:hover {
+  background: var(--wal-accent);
+  color: var(--cc-bg);
+}
+
+/* Do not disturb */
+.widget-dnd {
+  font-size: 15px;
+  color: var(--text-color);
+  padding: 6px 10px;
+  background: rgba(var(--noti-bg), 0.55);
+  border: 1px solid var(--noti-border-color);
+  border-radius: var(--border-radius);
+}
+
+.widget-dnd > switch {
+  border-radius: 12px;
+  background: var(--noti-bg-darker);
+  border: 1px solid var(--noti-border-color);
+}
+
+.widget-dnd > switch:checked {
+  background: var(--wal-accent);
+}
+
+/* Button grid */
+.widget-buttons-grid {
+  background: rgba(var(--noti-bg), 0.55);
+  border: 1px solid var(--noti-border-color);
+  border-radius: var(--border-radius);
+  padding: 8px;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button {
+  font-size: 18px;
+  min-width: 56px;
+  min-height: 42px;
+  margin: 3px;
+  padding: 4px;
+  color: var(--text-color);
+  background: var(--noti-bg-darker);
+  border: 1px solid transparent;
+  border-radius: 12px;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+  background: var(--noti-bg-hover);
+  border-color: var(--wal-accent);
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
+  background: var(--wal-accent);
+  color: var(--cc-bg);
+}
+
+/* Media player */
+.widget-mpris {
+  background: rgba(var(--noti-bg), 0.55);
+  border: 1px solid var(--noti-border-color);
+  border-radius: var(--border-radius);
+  padding: 8px;
+}
+
+.widget-mpris-player {
+  padding: 6px;
+  background: transparent;
+}
+
+.widget-mpris-title {
+  font-weight: bold;
+  font-size: 15px;
+  color: var(--text-color);
+}
+
+.widget-mpris-subtitle {
+  font-size: 12px;
+  color: var(--text-color-disabled);
+}
+
+.widget-mpris > box > button {
+  color: var(--text-color);
+  background: transparent;
+  border: none;
+}
+
+.widget-mpris > box > button:hover {
+  background: var(--noti-bg-hover);
+  border-radius: 10px;
+}
+
+/* Volume / backlight sliders */
+.widget-volume,
+.widget-backlight {
+  background: rgba(var(--noti-bg), 0.55);
+  border: 1px solid var(--noti-border-color);
+  border-radius: var(--border-radius);
+  padding: 8px 12px;
+  color: var(--text-color);
+}
+
+.widget-volume trough,
+.widget-backlight trough {
+  background: var(--noti-bg-darker);
+  border-radius: 12px;
+  min-height: 8px;
+}
+
+.widget-volume highlight,
+.widget-backlight highlight {
+  background: var(--wal-accent);
+  border-radius: 12px;
+  min-height: 8px;
+}
+
+.widget-volume slider,
+.widget-backlight slider {
+  background: var(--text-color);
+  border-radius: 50%;
+  min-width: 14px;
+  min-height: 14px;
+  margin: -4px;
+}
+
+/* Per-app volume rows */
+.widget-volume .per-app-volume {
+  padding: 4px 0;
+}
+
+/* ── Floating notifications ───────────────────────────────────────── */
+.floating-notifications .notification {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+}

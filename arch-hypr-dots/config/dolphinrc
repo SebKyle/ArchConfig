@@ -1,0 +1,39 @@
+# Dolphin. The original config only had a stale ViewPropsTimestamp and a
+# disabled menu bar; these are the settings that actually matter on a tiling
+# WM, where you want the sidebar and split view rather than chrome.
+
+[General]
+ShowFullPath=true
+ShowFullPathInTitlebar=false
+RememberOpenedTabs=false
+ConfirmClosingMultipleTabs=false
+ConfirmClosingTerminalRunningProgram=true
+BrowseThroughArchives=true
+ShowSelectionToggle=true
+UseTabForSwitchingSplitView=true
+GlobalViewProps=false
+SortingChoice=CaseInsensitiveSorting
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[DetailsMode]
+PreviewSize=22
+SidePadding=12
+
+[IconsMode]
+PreviewSize=64
+TextWidthIndex=2
+
+[PreviewSettings]
+# Thumbnail plugins. Needs ffmpegthumbs + kdegraphics-thumbnailers installed
+# (both are in the package list) for video and PDF previews to work.
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,svgthumbnail,ffmpegthumbs
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[Search]
+Location=Everywhere

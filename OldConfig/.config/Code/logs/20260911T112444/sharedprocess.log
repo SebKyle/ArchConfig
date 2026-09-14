@@ -1,0 +1,93 @@
+2026-09-11 11:24:49.571 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:49.614 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:50.078 [error] Error: Unable to read file '/home/sebkyle/.vscode/extensions/ms-python.python-2025.10.0-linux-x64.-3d97bc1.vsctmp/package.json' (Error: Unable to resolve nonexistent file '/home/sebkyle/.vscode/extensions/ms-python.python-2025.10.0-linux-x64.-3d97bc1.vsctmp/package.json')
+    at wh.G (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:86464)
+    at wh.F (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:86289)
+    at async wh.D (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:85661)
+    at async aa.u (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:43638)
+    at async aa.scanExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:42188)
+    at async Promise.all (index 3)
+    at async aa.r (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:40614)
+    at async Uu.scanAllUserExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:33635)
+    at async dh.scanAllUserExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:67236)
+    at async x7.H (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:57350)
+    at async x7.s (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:55245)
+2026-09-11 11:24:50.974 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:50.976 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:51.084 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:51.085 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:51.101 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:51.101 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:51.743 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:51.743 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:51.805 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:51.807 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:51.884 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:51.885 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:51.903 [info] Deleted marked for removal extension from disk ms-python.python /home/sebkyle/.vscode/extensions/ms-python.python-2025.10.0-linux-x64
+2026-09-11 11:24:51.918 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:51.919 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:51.946 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:51.947 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:51.990 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:51.991 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:52.062 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:52.063 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:52.112 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:52.114 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:52.148 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:52.149 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:53.585 [info] Getting Manifest... ms-python.debugpy
+2026-09-11 11:24:53.586 [info] Getting Manifest... ms-python.python
+2026-09-11 11:24:54.409 [info] Installing extension: ms-python.debugpy {"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json","path":"/home/sebkyle/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-09-11 11:24:54.409 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json","path":"/home/sebkyle/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-09-11 11:24:54.996 [info] Getting Manifest... ms-python.python
+2026-09-11 11:24:55.211 [info] Getting Manifest... ms-python.vscode-pylance
+2026-09-11 11:24:55.244 [info] Getting Manifest... ms-python.debugpy
+2026-09-11 11:24:55.633 [info] Skipping the packed extension as it cannot be installed ms-python.vscode-python-envs Can't install 'ms-python.vscode-python-envs' extension because it is not compatible with the current version of Visual Studio Code (version 1.98.2).
+2026-09-11 11:24:55.649 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:55.651 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:55.663 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:55.664 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:55.728 [info] Getting Manifest... ms-python.vscode-pylance
+2026-09-11 11:24:56.127 [info] Skipping the packed extension as it cannot be installed ms-python.vscode-python-envs Can't install 'ms-python.vscode-python-envs' extension because it is not compatible with the current version of Visual Studio Code (version 1.98.2).
+2026-09-11 11:24:56.146 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:24:56.148 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:56.159 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:24:56.160 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:25:08.102 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 4272ms.
+2026-09-11 11:25:08.102 [info] Extension signature verification result for ms-python.debugpy: Success. Internal Code: 0. Executed: true. Duration: 4312ms.
+2026-09-11 11:25:08.751 [info] Extracted extension to file:///home/sebkyle/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64: ms-python.debugpy
+2026-09-11 11:25:09.404 [info] Renamed to /home/sebkyle/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64
+2026-09-11 11:25:09.564 [info] Extracted extension to file:///home/sebkyle/.vscode/extensions/ms-python.python-2026.4.0-linux-x64: ms-python.python
+2026-09-11 11:25:10.136 [info] Marked extension as removed ms-python.debugpy-2025.10.0
+2026-09-11 11:25:10.142 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:25:10.148 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:25:10.150 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json
+2026-09-11 11:25:10.667 [info] Renamed to /home/sebkyle/.vscode/extensions/ms-python.python-2026.4.0-linux-x64
+2026-09-11 11:25:10.766 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:25:10.768 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:25:10.768 [info] Marked extension as removed ms-python.python-2025.12.0
+2026-09-11 11:25:10.771 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json
+2026-09-11 11:25:16.153 [info] Getting Manifest... ms-python.vscode-pylance
+2026-09-11 11:25:16.245 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.137.0","date":"2026-09-08T21:01:19.457Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json","path":"/home/sebkyle/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-09-11 11:25:21.380 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 736ms.
+2026-09-11 11:25:24.601 [info] Extracted extension to file:///home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2026.3.1: ms-python.vscode-pylance
+2026-09-11 11:25:25.453 [info] Renamed to /home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2026.3.1
+2026-09-11 11:25:25.466 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2026.3.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.107.0.
+2026-09-11 11:25:25.484 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:25:25.487 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:25:25.490 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2026.3.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.107.0.
+2026-09-11 11:25:25.491 [error] Error while installing the extension ms-python.vscode-pylance Cannot read the extension from /home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2026.3.1 vscode-userdata:/home/sebkyle/.vscode/extensions/extensions.json
+2026-09-11 11:29:52.072 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:29:52.073 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:29:52.075 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2026.3.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.107.0.
+2026-09-11 11:34:52.430 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:34:52.432 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2026.3.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.107.0.
+2026-09-11 11:34:52.433 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:39:52.665 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:39:52.666 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:39:52.667 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2026.3.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.107.0.
+2026-09-11 11:44:52.929 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2026-09-11 11:44:52.931 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2026-09-11 11:44:52.931 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2026.3.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.107.0.

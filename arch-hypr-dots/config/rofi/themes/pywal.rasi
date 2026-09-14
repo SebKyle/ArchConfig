@@ -1,0 +1,146 @@
+/* ╔══════════════════════════════════════════════════════════════════╗
+   ║  rofi theme — colours from pywal                                 ║
+   ║  ~/.cache/wal/colors-rofi.rasi defines:                          ║
+   ║    background, background-alt, foreground, selected, accent,     ║
+   ║    urgent, active                                                ║
+   ╚══════════════════════════════════════════════════════════════════╝ */
+
+@import "colors.rasi"
+
+* {
+    border-radius:   16px;
+    spacing:         0;
+    text-color:      @foreground;
+    background-color: transparent;
+}
+
+window {
+    width:            720px;
+    transparency:     "real";
+    location:         center;
+    anchor:           center;
+    fullscreen:       false;
+    border:           1px;
+    border-color:     rgba(255, 255, 255, 12%);
+    background-color: @background;
+    padding:          0;
+    children:         [ mainbox ];
+}
+
+mainbox {
+    padding:  16px;
+    children: [ inputbar, message, listview, mode-switcher ];
+}
+
+/* ── Search bar ───────────────────────────────────────────────────── */
+inputbar {
+    background-color: @background-alt;
+    border:           1px;
+    border-color:     rgba(255, 255, 255, 10%);
+    border-radius:    12px;
+    padding:          10px 14px;
+    spacing:          10px;
+    children:         [ prompt, entry ];
+}
+
+prompt {
+    text-color:       @selected;
+    vertical-align:   0.5;
+}
+
+entry {
+    placeholder:            "Search…";
+    placeholder-color:      rgba(255, 255, 255, 35%);
+    vertical-align:         0.5;
+    cursor:                 text;
+}
+
+/* ── Results ──────────────────────────────────────────────────────── */
+listview {
+    columns:      2;
+    lines:        7;
+    cycle:        true;
+    dynamic:      true;
+    scrollbar:    false;
+    spacing:      4px;
+    margin:       12px 0px 0px 0px;
+    fixed-height: true;
+    fixed-columns:true;
+}
+
+element {
+    padding:       9px 12px;
+    spacing:       12px;
+    border-radius: 12px;
+    cursor:        pointer;
+}
+
+element normal.normal   { text-color: @foreground; }
+element normal.urgent   { text-color: @urgent; }
+element normal.active   { text-color: @active; }
+
+element selected.normal {
+    background-color: @selected;
+    text-color:       @background;
+}
+element selected.urgent {
+    background-color: @urgent;
+    text-color:       @background;
+}
+element selected.active {
+    background-color: @active;
+    text-color:       @background;
+}
+
+element alternate.normal { text-color: @foreground; }
+
+element-icon {
+    size:           26px;
+    cursor:         inherit;
+    vertical-align: 0.5;
+}
+
+element-text {
+    text-color:     inherit;
+    cursor:         inherit;
+    vertical-align: 0.5;
+    highlight:      bold;
+}
+
+/* ── Mode switcher tabs ───────────────────────────────────────────── */
+mode-switcher {
+    spacing: 8px;
+    margin:  12px 0px 0px 0px;
+}
+
+button {
+    padding:          8px;
+    border-radius:    10px;
+    background-color: @background-alt;
+    text-color:       @foreground;
+    cursor:           pointer;
+}
+
+button selected {
+    background-color: @selected;
+    text-color:       @background;
+}
+
+/* ── Messages / errors ────────────────────────────────────────────── */
+message {
+    margin:  12px 0px 0px 0px;
+}
+
+textbox {
+    padding:          10px;
+    border-radius:    12px;
+    background-color: @background-alt;
+    text-color:       @foreground;
+}
+
+error-message {
+    padding:          14px;
+    border-radius:    12px;
+    background-color: @background;
+    text-color:       @urgent;
+}

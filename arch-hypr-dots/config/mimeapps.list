@@ -1,0 +1,23 @@
+# Default applications. `xdg-mime query default <mimetype>` to check,
+# `xdg-mime default <app.desktop> <mimetype>` to change.
+
+[Default Applications]
+inode/directory=org.kde.dolphin.desktop
+text/plain=org.kde.kate.desktop
+text/html=firefox.desktop
+application/pdf=org.kde.okular.desktop
+image/png=org.kde.gwenview.desktop
+image/jpeg=org.kde.gwenview.desktop
+image/gif=org.kde.gwenview.desktop
+image/webp=org.kde.gwenview.desktop
+video/mp4=mpv.desktop
+video/x-matroska=mpv.desktop
+audio/mpeg=mpv.desktop
+audio/flac=mpv.desktop
+application/zip=org.kde.ark.desktop
+application/x-tar=org.kde.ark.desktop
+application/x-compressed-tar=org.kde.ark.desktop
+application/x-7z-compressed=org.kde.ark.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/terminal=kitty.desktop

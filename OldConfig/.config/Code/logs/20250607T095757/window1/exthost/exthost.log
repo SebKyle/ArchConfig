@@ -1,0 +1,16 @@
+2025-06-07 09:57:58.993 [info] Extension host with pid 1797 started
+2025-06-07 09:57:58.994 [info] Skipping acquiring lock for /home/sebkyle/.config/Code/User/workspaceStorage/c7b425e4fb8124b2f0b7a4ec953f9e57.
+2025-06-07 09:57:59.105 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-07 09:57:59.134 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-07 09:57:59.306 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-07 09:57:59.324 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-07 09:57:59.409 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-07 09:57:59.499 [info] Eager extensions activated
+2025-06-07 09:57:59.527 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 09:57:59.530 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 09:58:17.865 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-07 09:58:17.877 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-07 09:58:17.953 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-07 09:58:20.740 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-06-07 09:58:43.154 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-07 09:58:43.205 [info] Extension host with pid 1797 exiting with code 0

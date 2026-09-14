@@ -1,0 +1,82 @@
+# Official repo packages (pacman). One per line; # starts a comment.
+# Verified against the Arch repos in September 2026.
+
+# ── Hyprland core ──────────────────────────────────────────────────────
+hyprland                      # the compositor. Config is Lua since 0.55.
+hyprlock                      # lock screen
+hypridle                      # idle daemon
+hyprpaper                     # wallpaper daemon (IPC-controlled)
+hyprpicker                    # colour picker
+hyprshot                      # screenshots (moved from the AUR into extra)
+hyprpolkitagent               # polkit authentication agent
+hyprsunset                    # night light
+hyprshutdown                  # ordered session teardown
+hyprland-guiutils             # replaces the old hyprland-qtutils
+xdg-desktop-portal-hyprland   # screen share / screenshot portal
+xdg-desktop-portal-gtk        # file chooser + settings portal
+
+# ── Shell components ───────────────────────────────────────────────────
+waybar                        # status bar (GTK3)
+swaync                        # notification daemon + control centre (GTK4)
+rofi                          # launcher. rofi 2.0 is Wayland-native;
+                              # the old rofi-wayland package no longer exists.
+
+# ── Terminal / shell ───────────────────────────────────────────────────
+kitty
+fastfetch                     # neofetch was dropped from the repos
+starship
+bash-completion
+
+# ── File management ────────────────────────────────────────────────────
+dolphin
+kio-admin                     # "open as administrator" in Dolphin
+ark                           # archives
+ffmpegthumbs                  # video thumbnails in Dolphin
+kdegraphics-thumbnailers      # PDF/SVG thumbnails
+qt6-imageformats              # webp/avif/heif previews
+gvfs                          # mounting
+udiskie                       # automount removable media
+
+# ── Theming ────────────────────────────────────────────────────────────
+qt5ct
+qt6ct
+kvantum                       # Qt6 style engine + kvantummanager
+kvantum-qt5                   # Qt5 style engine
+nwg-look                      # GTK theme GUI
+papirus-icon-theme
+
+# ── Fonts ──────────────────────────────────────────────────────────────
+ttf-jetbrains-mono-nerd
+ttf-cascadia-code-nerd
+ttf-firacode-nerd
+noto-fonts
+noto-fonts-emoji
+otf-font-awesome
+
+# ── Audio / media ──────────────────────────────────────────────────────
+pipewire
+pipewire-alsa
+pipewire-pulse
+pipewire-jack
+wireplumber
+pavucontrol
+playerctl
+mpv
+
+# ── Utilities ──────────────────────────────────────────────────────────
+brightnessctl
+cliphist                      # clipboard history for SUPER+|
+wl-clipboard
+grim
+slurp
+swappy                        # screenshot annotation
+network-manager-applet
+polkit
+imagemagick                   # pywal needs this for some backends
+jq
+socat
+unzip
+wget
+curl
+git
+base-devel                    # needed to bootstrap yay

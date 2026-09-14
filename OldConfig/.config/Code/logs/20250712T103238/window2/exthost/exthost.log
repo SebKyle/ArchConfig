@@ -1,0 +1,12 @@
+2025-07-12 10:32:40.578 [info] Extension host with pid 1438 started
+2025-07-12 10:32:40.578 [info] Skipping acquiring lock for /home/sebkyle/.config/Code/User/workspaceStorage/8395f3e03e1cdeb1103b7bb4261ca054.
+2025-07-12 10:32:40.764 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-12 10:32:40.809 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-12 10:32:40.906 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-12 10:32:40.939 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-12 10:32:41.065 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-12 10:32:41.184 [info] Eager extensions activated
+2025-07-12 10:32:41.209 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-12 10:32:41.212 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-12 10:32:47.226 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-12 10:32:47.243 [info] Extension host with pid 1438 exiting with code 0

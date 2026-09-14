@@ -1,0 +1,168 @@
+/* ╔══════════════════════════════════════════════════════════════════╗
+   ║  Waybar stylesheet — colours come from pywal                     ║
+   ║  @color0..@color15, @background, @foreground are defined in      ║
+   ║  ~/.cache/wal/colors-waybar.css, regenerated on every wallpaper  ║
+   ║  change by ~/.config/hypr/scripts/setwall.sh                     ║
+   ╚══════════════════════════════════════════════════════════════════╝ */
+
+/* colors.css is copied here from ~/.cache/wal by setwall.sh. A relative
+   import is used deliberately: it resolves next to this file, which keeps
+   working whether ~/.config/waybar is a symlink into the repo or a copy. */
+@import url("colors.css");
+
+* {
+  font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  min-height: 0;
+  border: none;
+  border-radius: 0;
+}
+
+window#waybar {
+  background: transparent;
+  color: @foreground;
+}
+
+window#waybar.hidden { opacity: 0.2; }
+
+/* Every module shares the same pill shape. */
+#custom-logo,
+#workspaces,
+#submap,
+#window,
+#tray,
+#idle_inhibitor,
+#cpu,
+#memory,
+#backlight,
+#pulseaudio,
+#network,
+#battery,
+#custom-notification,
+#clock,
+#custom-power {
+  background-color: alpha(@color0, 0.75);
+  color: @foreground;
+  padding: 2px 12px;
+  margin: 2px 2px;
+  border-radius: 12px;
+  border: 1px solid alpha(@color6, 0.25);
+}
+
+/* ── Launcher pip ─────────────────────────────────────────────────── */
+#custom-logo {
+  color: @color6;
+  font-size: 16px;
+  padding: 2px 14px;
+  background-color: alpha(@color0, 0.85);
+}
+#custom-logo:hover { background-color: alpha(@color6, 0.25); }
+
+/* ── Workspaces ───────────────────────────────────────────────────── */
+#workspaces { padding: 2px 6px; }
+
+#workspaces button {
+  color: @color8;
+  background: transparent;
+  border: none;
+  padding: 0 6px;
+  margin: 0 1px;
+  border-radius: 8px;
+  transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#workspaces button.empty  { color: alpha(@color8, 0.5); }
+#workspaces button.visible { color: @color4; }
+
+#workspaces button.active {
+  color: @color6;
+  background: alpha(@color6, 0.18);
+  padding: 0 12px;
+}
+
+#workspaces button.urgent {
+  color: @color0;
+  background: @color1;
+}
+
+#workspaces button:hover {
+  color: @foreground;
+  background: alpha(@color7, 0.15);
+  box-shadow: none;
+  text-shadow: none;
+}
+
+/* ── Submap indicator (resize mode) ───────────────────────────────── */
+#submap {
+  color: @color0;
+  background-color: @color3;
+}
+
+/* ── Focused window title ─────────────────────────────────────────── */
+#window {
+  color: @color7;
+  background-color: alpha(@color0, 0.65);
+  font-weight: 500;
+}
+window#waybar.empty #window {
+  background: transparent;
+  border-color: transparent;
+}
+
+/* ── Right side accents ───────────────────────────────────────────── */
+#cpu      { color: @color2; }
+#memory   { color: @color3; }
+#backlight{ color: @color3; }
+#pulseaudio { color: @color4; }
+#network  { color: @color5; }
+#battery  { color: @color2; }
+#clock    { color: @color6; }
+#idle_inhibitor { color: @color8; }
+#idle_inhibitor.activated { color: @color3; }
+
+#custom-notification { color: @color6; }
+#custom-power {
+  color: @color1;
+  padding: 2px 14px;
+}
+#custom-power:hover {
+  background-color: @color1;
+  color: @color0;
+}
+
+#tray { padding: 2px 10px; }
+#tray > .passive { -gtk-icon-effect: dim; }
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: alpha(@color1, 0.4);
+  border-radius: 12px;
+}
+
+/* ── States ───────────────────────────────────────────────────────── */
+#pulseaudio.muted { color: @color8; }
+#network.disconnected { color: @color1; }
+
+#battery.charging, #battery.plugged { color: @color2; }
+
+#battery.warning:not(.charging) { color: @color3; }
+#battery.critical:not(.charging) {
+  color: @color0;
+  background-color: @color1;
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    background-color: alpha(@color1, 0.3);
+    color: @color1;
+  }
+}
+
+/* ── Tooltips ─────────────────────────────────────────────────────── */
+tooltip {
+  background: alpha(@color0, 0.95);
+  border: 1px solid alpha(@color6, 0.4);
+  border-radius: 12px;
+}
+tooltip label { color: @foreground; padding: 4px; }

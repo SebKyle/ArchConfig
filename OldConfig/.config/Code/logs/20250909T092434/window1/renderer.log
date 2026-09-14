@@ -1,0 +1,12 @@
+2025-09-09 09:24:35.895 [info] Started local extension host with pid 1222.
+2025-09-09 09:24:36.198 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2025-09-09 09:24:37.283 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-09-09 09:24:38.605 [info] [perf] Render performance baseline is 25ms
+2025-09-09 09:25:12.289 [error] Cannot read the extension from /home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1: ScanningExtension: Cannot read the extension from /home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1
+    at dh.scanLocalExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:71916)
+    at async ph.h (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:77100)
+2025-09-09 09:25:23.950 [info] Started local extension host with pid 1592.
+2025-09-09 09:25:24.233 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.6.2]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.99.0.
+2025-09-09 09:25:24.234 [error] [/home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.7.1]: Extension is not compatible with Code 1.98.2. Extension requires: ^1.101.0.
+2025-09-09 09:25:25.127 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-09-09 09:25:26.721 [info] [perf] Render performance baseline is 29ms

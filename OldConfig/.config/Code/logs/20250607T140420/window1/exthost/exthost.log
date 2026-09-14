@@ -1,0 +1,11 @@
+2025-06-07 14:04:21.542 [info] Extension host with pid 21202 started
+2025-06-07 14:04:21.542 [info] Skipping acquiring lock for /home/sebkyle/.config/Code/User/workspaceStorage/c7b425e4fb8124b2f0b7a4ec953f9e57.
+2025-06-07 14:04:21.754 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-07 14:04:21.784 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-07 14:04:21.800 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-06-07 14:04:22.235 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-07 14:04:22.276 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-07 14:04:22.355 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-07 14:04:22.451 [info] Eager extensions activated
+2025-06-07 14:04:22.475 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 14:04:22.477 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

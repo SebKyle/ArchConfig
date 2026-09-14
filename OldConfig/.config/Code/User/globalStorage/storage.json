@@ -1,0 +1,71 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "449db3287a75746052879068912b3d3ed8640e03da1231fb692f76625dc2b640",
+    "telemetry.devDeviceId": "f5aa09a6-7a80-4fa9-b5d3-346ada008376",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/sebkyle/.config"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/sebkyle/.config/hypr/waybar": "__default__profile__",
+            "file:///home/sebkyle/.config/hypr": "__default__profile__",
+            "file:///home/sebkyle/.config": "__default__profile__",
+            "file:///home/sebkyle/.cache": "__default__profile__",
+            "file:///home/sebkyle/.config/wal": "__default__profile__",
+            "file:///home/sebkyle/.cache/wal": "__default__profile__",
+            "file:///home/sebkyle/drill": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/sebkyle/.config",
+            "backupPath": "/home/sebkyle/.config/Code/Backups/ce714abbf0b12c1375bfb18bb87a620b",
+            "uiState": {
+                "mode": 1,
+                "x": 6,
+                "y": 54,
+                "width": 1908,
+                "height": 1020
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    }
+}

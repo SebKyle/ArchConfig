@@ -1,0 +1,235 @@
+2025-07-12 11:52:30.714 [info] Started local extension host with pid 4327.
+2025-07-12 11:52:32.429 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-12 11:52:33.216 [error] Error while getting the latest version for the extension ms-python.debugpy. Failed to fetch
+2025-07-12 11:52:33.217 [error] Error while getting the latest version for the extension ms-python.python. Failed to fetch
+2025-07-12 11:52:33.217 [error] Error while getting the latest version for the extension ms-python.vscode-pylance. Failed to fetch
+2025-07-12 11:52:33.482 [info] [perf] Render performance baseline is 25ms
+2025-07-12 12:37:33.342 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 12:42:33.358 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 12:47:33.374 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 13:41:11.485 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 13:46:11.507 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 13:51:11.520 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 13:56:11.537 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 14:01:11.550 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 14:06:11.568 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 14:11:11.585 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 14:16:11.605 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 14:21:11.622 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 14:26:11.634 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 14:31:11.653 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 14:36:11.665 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 14:41:11.685 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 14:46:11.703 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 14:51:11.722 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 14:56:11.742 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 15:01:11.754 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 15:06:11.760 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 15:11:11.766 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 15:16:11.779 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-07-12 15:21:11.790 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 15:26:11.799 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 15:31:11.810 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 15:36:11.820 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 15:41:11.830 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 15:46:11.834 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 15:51:11.845 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 15:56:11.855 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 16:01:11.865 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 16:06:11.875 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 16:11:11.885 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 16:16:11.896 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 16:21:11.906 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 16:26:11.916 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 16:31:11.926 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 16:36:11.936 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 16:41:11.946 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 16:46:11.957 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 16:51:11.967 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 16:56:11.977 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 17:01:11.987 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 17:06:11.997 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 17:11:12.008 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 17:16:12.017 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 17:21:12.027 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 17:26:12.037 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 17:31:12.048 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 17:36:12.058 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 17:41:12.068 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 17:46:12.079 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 17:51:12.082 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 17:56:12.093 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 18:01:12.103 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 18:06:12.113 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 18:11:12.123 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 18:16:12.133 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 18:21:12.144 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 18:26:12.154 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 18:31:12.164 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 18:36:12.174 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 18:41:12.184 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 18:46:12.194 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 18:51:12.204 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 18:56:12.214 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 19:01:12.225 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 19:06:12.236 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 19:11:12.238 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 19:16:12.241 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 19:21:12.245 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 19:26:12.248 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 19:31:12.251 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 19:36:12.255 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 19:41:12.258 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 19:46:12.262 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 19:51:12.266 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 19:56:12.271 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 20:01:12.276 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 20:06:12.283 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 20:11:12.290 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 20:16:12.300 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 20:21:12.310 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 20:26:12.320 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 20:31:12.331 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 20:36:12.341 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 20:41:12.351 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 20:46:12.361 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 20:51:12.371 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 20:56:12.381 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 21:01:12.392 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 21:06:12.402 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 21:11:12.412 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 21:16:12.422 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 21:21:12.432 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 21:26:12.442 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 21:31:12.452 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 21:36:12.463 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 21:41:12.473 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 21:46:12.483 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 21:51:12.494 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 21:56:12.504 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 22:01:12.514 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 22:06:12.524 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 22:11:12.534 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 22:16:12.544 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 22:21:12.554 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 22:26:12.564 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 22:31:12.574 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 22:36:12.582 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 22:41:12.592 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 22:46:12.602 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 22:51:12.613 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 22:56:12.623 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 23:01:12.633 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 23:06:12.643 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 23:11:12.647 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 23:16:12.657 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 23:21:12.668 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 23:26:12.678 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 23:31:12.688 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 23:36:12.699 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 23:41:12.709 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 23:46:12.719 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 23:51:12.733 [warning] Failed to fetch chat participant registry Offline
+2025-07-12 23:56:12.746 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 00:01:12.748 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 00:06:12.751 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 00:11:12.755 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 00:16:12.759 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 00:21:12.770 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 00:26:12.774 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 00:31:12.779 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 00:36:12.790 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 00:41:12.800 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 00:46:12.810 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 00:51:12.820 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 00:56:12.830 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 01:01:12.840 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 01:06:12.850 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 01:11:12.861 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 01:16:12.864 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 01:21:12.875 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 01:26:12.885 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 01:31:12.895 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 01:36:12.905 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 01:41:12.915 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 01:46:12.925 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 01:51:12.935 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 01:56:12.945 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 02:01:12.955 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 02:06:12.965 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 02:11:12.976 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 02:16:12.985 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 02:21:12.996 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 02:26:13.006 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 02:31:13.016 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 02:36:13.026 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 02:41:13.036 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 02:46:13.039 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 02:51:13.050 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 02:56:13.060 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 03:01:13.070 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 03:06:13.080 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 03:11:13.090 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 03:16:13.100 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 03:21:13.104 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 03:26:13.115 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 03:31:13.125 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 03:36:13.135 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 03:41:13.145 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 03:46:13.155 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 03:51:13.165 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 03:56:13.175 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 04:01:13.185 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 04:06:13.195 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 04:11:13.205 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 04:16:13.215 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 04:21:13.225 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 04:26:13.234 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 04:31:13.246 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 04:36:13.249 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 04:41:13.252 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 04:46:13.263 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 04:51:13.266 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 04:56:13.271 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 05:01:13.276 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 05:06:13.287 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 05:11:13.296 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 05:16:13.306 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 05:21:13.316 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 05:26:13.319 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 05:31:13.329 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 05:36:13.339 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 05:41:13.350 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 05:46:13.360 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 05:51:13.370 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 05:56:13.380 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 06:01:13.390 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 06:06:13.400 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 06:11:13.410 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 06:16:13.420 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 06:21:13.430 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 06:26:13.441 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 06:31:13.451 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 06:36:13.461 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 06:41:13.471 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 06:46:13.481 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 06:51:13.491 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 06:56:13.501 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 07:01:13.511 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 07:06:13.521 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 07:11:13.531 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 07:16:13.541 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 07:21:13.551 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 07:26:13.561 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 07:31:13.564 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 07:36:13.575 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 07:41:13.585 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 07:46:13.595 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 07:51:13.605 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 07:56:13.615 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 08:01:13.625 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 08:06:13.629 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 08:11:13.640 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 08:16:13.650 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 08:21:13.660 [warning] Failed to fetch chat participant registry Offline
+2025-07-13 08:26:13.670 [warning] Failed to fetch chat participant registry Offline

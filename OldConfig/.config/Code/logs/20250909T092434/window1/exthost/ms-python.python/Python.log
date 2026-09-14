@@ -1,0 +1,8 @@
+2025-09-09 09:24:37.112 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-09-09 09:24:37.112 [info] Native locator: Refresh started
+2025-09-09 09:24:37.163 [info] Native locator: Refresh started
+2025-09-09 09:24:37.231 [info] > pyenv which python
+2025-09-09 09:24:37.231 [info] cwd: .
+2025-09-09 09:24:37.274 [info] Python interpreter path: /bin/python
+2025-09-09 09:24:38.011 [info] Native locator: Refresh finished in 928 ms
+2025-09-09 09:24:39.147 [info] Starting Pylance language server.

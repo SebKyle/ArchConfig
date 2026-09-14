@@ -1,0 +1,67 @@
+/* Compact horizontal theme used by scripts/powermenu.sh */
+
+@import "colors.rasi"
+
+* {
+    font:             "JetBrainsMono Nerd Font 11";
+    background-color: transparent;
+    text-color:       @foreground;
+}
+
+window {
+    width:            520px;
+    location:         center;
+    anchor:           center;
+    transparency:     "real";
+    border:           1px;
+    border-color:     rgba(255, 255, 255, 12%);
+    border-radius:    20px;
+    background-color: @background;
+    padding:          24px;
+    children:         [ mainbox ];
+}
+
+mainbox {
+    spacing:  18px;
+    children: [ inputbar, listview ];
+}
+
+inputbar {
+    children: [ prompt ];
+}
+
+prompt {
+    background-color: transparent;
+    text-color:       @selected;
+    font:             "JetBrainsMono Nerd Font Bold 13";
+    padding:          0px 4px;
+    horizontal-align: 0.5;
+}
+
+listview {
+    columns:   5;
+    lines:     1;
+    spacing:   10px;
+    cycle:     true;
+    scrollbar: false;
+}
+
+element {
+    padding:          20px 0px;
+    border-radius:    16px;
+    background-color: @background-alt;
+    cursor:           pointer;
+}
+
+element-text {
+    font:             "JetBrainsMono Nerd Font 24";
+    horizontal-align: 0.5;
+    vertical-align:   0.5;
+    text-color:       inherit;
+    cursor:           inherit;
+}
+
+element selected {
+    background-color: @selected;
+    text-color:       @background;
+}

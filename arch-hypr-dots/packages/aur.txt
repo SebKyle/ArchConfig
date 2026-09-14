@@ -1,0 +1,11 @@
+# AUR packages. Installed with yay (install.sh bootstraps it if missing).
+
+python-pywal16                # the MAINTAINED pywal fork. Upstream pywal was
+                              # archived in 2024; the extra/python-pywal
+                              # package is that dead 3.3.0 release.
+                              # Provides/conflicts python-pywal, so it is a
+                              # drop-in replacement. Binary is still `wal`.
+bibata-cursor-theme-bin       # cursor theme referenced by gtk/qt/hypr configs.
+                              # The -bin build is used because building the
+                              # source package pulls in python-clickgen and
+                              # takes several minutes.

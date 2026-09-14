@@ -1,0 +1,27 @@
+2025-07-12 11:52:33.529 [info] (Client) Pylance async client (2025.4.1) started with python extension (2025.10.0)
+2025-07-12 11:52:33.661 [info] [Info  - 11:52:33 AM] (4562) Server root directory: file:///home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-07-12 11:52:33.661 [info] [Info  - 11:52:33 AM] (4562) Pylance language server 2025.4.1 (pyright version 1.1.398, commit 4f24eccc) starting
+2025-07-12 11:52:33.661 [info] [Info  - 11:52:33 AM] (4562) Starting service instance "drill" for workspace "/home/sebkyle/drill"
+2025-07-12 11:52:33.711 [info] [Info  - 11:52:33 AM] (4562) Setting environmentName for service "drill": "3.13.2 (global)"
+2025-07-12 11:52:33.711 [info] [Info  - 11:52:33 AM] (4562) Setting pythonPath for service "drill": "/bin/python"
+2025-07-12 11:52:33.712 [info] [Info  - 11:52:33 AM] (4562) No include entries specified; assuming /home/sebkyle/drill
+2025-07-12 11:52:33.712 [info] [Info  - 11:52:33 AM] (4562) Auto-excluding **/node_modules
+2025-07-12 11:52:33.712 [info] [Info  - 11:52:33 AM] (4562) Auto-excluding **/__pycache__
+2025-07-12 11:52:33.712 [info] [Info  - 11:52:33 AM] (4562) Auto-excluding **/.*
+2025-07-12 11:52:33.737 [info] [Info  - 11:52:33 AM] (4562) Assuming Python version 3.13.2.final.0
+2025-07-12 11:52:33.801 [info] [Info  - 11:52:33 AM] (4562) Found 2 source files
+2025-07-12 11:52:33.819 [info] [Info  - 11:52:33 AM] (4562) Setting environmentName for service "drill": "3.13.2 (global)"
+2025-07-12 11:52:33.819 [info] [Info  - 11:52:33 AM] (4562) Setting pythonPath for service "drill": "/bin/python"
+2025-07-12 11:52:33.819 [info] [Info  - 11:52:33 AM] (4562) No include entries specified; assuming /home/sebkyle/drill
+2025-07-12 11:52:33.820 [info] [Info  - 11:52:33 AM] (4562) Auto-excluding **/node_modules
+2025-07-12 11:52:33.820 [info] [Info  - 11:52:33 AM] (4562) Auto-excluding **/__pycache__
+2025-07-12 11:52:33.820 [info] [Info  - 11:52:33 AM] (4562) Auto-excluding **/.*
+2025-07-12 11:52:33.845 [info] [Info  - 11:52:33 AM] (4562) Assuming Python version 3.13.2.final.0
+2025-07-12 11:52:33.891 [info] [Info  - 11:52:33 AM] (4562) Found 2 source files
+2025-07-12 11:52:34.488 [info] [Info  - 11:52:34 AM] (4562) BG: Priority queue background worker(2) root directory: file:///home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-07-12 11:52:34.489 [info] [Info  - 11:52:34 AM] (4562) BG: Priority queue background worker(2) started
+2025-07-12 11:52:34.655 [info] [Info  - 11:52:34 AM] (4562) BG: Indexer background runner(3) root directory: file:///home/sebkyle/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (index)
+2025-07-12 11:52:34.655 [info] [Info  - 11:52:34 AM] (4562) BG: Indexing(3) started
+2025-07-12 11:52:35.168 [info] [Info  - 11:52:35 AM] (4562) BG: scanned(3) 29 files over 1 exec env
+2025-07-12 11:52:35.346 [info] [Info  - 11:52:35 AM] (4562) BG: indexed(3) 29 files over 1 exec env
+2025-07-12 11:52:35.366 [info] [Info  - 11:52:35 AM] (4562) BG: Indexing finished(3).

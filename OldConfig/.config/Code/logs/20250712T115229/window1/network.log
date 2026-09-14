@@ -1,0 +1,233 @@
+2025-07-12 11:52:33.216 [error] #1: https://www.vscode-unpkg.net/_gallery/ms-python/debugpy/latest - error GET Failed to fetch
+2025-07-12 11:52:33.217 [error] #2: https://www.vscode-unpkg.net/_gallery/ms-python/python/latest - error GET Failed to fetch
+2025-07-12 11:52:33.217 [error] #3: https://www.vscode-unpkg.net/_gallery/ms-python/vscode-pylance/latest - error GET Failed to fetch
+2025-07-12 11:52:33.224 [error] #4: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch
+2025-07-12 12:37:33.341 [error] #14: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 12:42:33.357 [error] #15: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 12:47:33.373 [error] #16: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 13:41:11.484 [error] #17: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 13:46:11.506 [error] #18: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 13:51:11.519 [error] #19: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 13:56:11.537 [error] #20: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 14:01:11.550 [error] #21: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 14:06:11.568 [error] #22: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 14:11:11.585 [error] #23: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 14:16:11.604 [error] #24: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 14:21:11.621 [error] #25: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 14:26:11.633 [error] #26: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 14:31:11.653 [error] #27: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 14:36:11.665 [error] #28: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 14:41:11.684 [error] #29: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 14:46:11.703 [error] #30: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 14:51:11.721 [error] #31: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 14:56:11.741 [error] #32: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 15:01:11.754 [error] #33: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 15:06:11.760 [error] #34: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 15:11:11.765 [error] #35: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 15:16:11.779 [error] #36: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-07-12 15:21:11.789 [error] #37: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 15:26:11.799 [error] #38: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 15:31:11.809 [error] #39: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 15:36:11.819 [error] #40: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 15:41:11.830 [error] #41: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 15:46:11.834 [error] #42: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 15:51:11.844 [error] #43: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 15:56:11.854 [error] #44: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 16:01:11.865 [error] #45: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 16:06:11.875 [error] #46: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 16:11:11.885 [error] #47: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 16:16:11.895 [error] #48: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 16:21:11.905 [error] #49: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 16:26:11.915 [error] #50: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 16:31:11.925 [error] #51: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 16:36:11.936 [error] #52: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 16:41:11.946 [error] #53: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 16:46:11.956 [error] #54: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 16:51:11.966 [error] #55: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 16:56:11.976 [error] #56: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 17:01:11.987 [error] #57: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 17:06:11.997 [error] #58: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 17:11:12.007 [error] #59: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 17:16:12.017 [error] #60: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 17:21:12.027 [error] #61: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 17:26:12.037 [error] #62: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 17:31:12.047 [error] #63: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 17:36:12.057 [error] #64: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 17:41:12.068 [error] #65: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 17:46:12.078 [error] #66: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 17:51:12.082 [error] #67: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 17:56:12.092 [error] #68: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 18:01:12.102 [error] #69: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 18:06:12.112 [error] #70: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 18:11:12.122 [error] #71: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 18:16:12.133 [error] #72: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 18:21:12.143 [error] #73: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 18:26:12.153 [error] #74: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 18:31:12.163 [error] #75: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 18:36:12.173 [error] #76: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 18:41:12.184 [error] #77: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 18:46:12.193 [error] #78: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 18:51:12.204 [error] #79: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 18:56:12.214 [error] #80: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 19:01:12.224 [error] #81: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 19:06:12.235 [error] #82: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 19:11:12.238 [error] #83: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 19:16:12.241 [error] #84: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 19:21:12.244 [error] #85: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 19:26:12.247 [error] #86: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 19:31:12.251 [error] #87: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 19:36:12.255 [error] #88: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 19:41:12.258 [error] #89: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 19:46:12.262 [error] #90: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 19:51:12.266 [error] #91: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 19:56:12.271 [error] #92: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 20:01:12.276 [error] #93: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 20:06:12.282 [error] #94: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 20:11:12.289 [error] #95: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 20:16:12.299 [error] #96: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 20:21:12.309 [error] #97: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 20:26:12.320 [error] #98: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 20:31:12.330 [error] #99: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 20:36:12.340 [error] #100: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 20:41:12.351 [error] #101: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 20:46:12.360 [error] #102: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 20:51:12.371 [error] #103: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 20:56:12.381 [error] #104: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 21:01:12.391 [error] #105: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 21:06:12.401 [error] #106: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 21:11:12.411 [error] #107: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 21:16:12.421 [error] #108: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 21:21:12.431 [error] #109: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 21:26:12.441 [error] #110: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 21:31:12.452 [error] #111: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 21:36:12.462 [error] #112: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 21:41:12.472 [error] #113: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 21:46:12.482 [error] #114: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 21:51:12.494 [error] #115: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 21:56:12.503 [error] #116: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 22:01:12.513 [error] #117: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 22:06:12.524 [error] #118: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 22:11:12.533 [error] #119: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 22:16:12.543 [error] #120: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 22:21:12.553 [error] #121: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 22:26:12.563 [error] #122: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 22:31:12.574 [error] #123: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 22:36:12.582 [error] #124: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 22:41:12.592 [error] #125: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 22:46:12.602 [error] #126: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 22:51:12.612 [error] #127: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 22:56:12.623 [error] #128: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 23:01:12.633 [error] #129: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 23:06:12.643 [error] #130: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 23:11:12.646 [error] #131: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 23:16:12.657 [error] #132: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 23:21:12.667 [error] #133: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 23:26:12.678 [error] #134: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 23:31:12.688 [error] #135: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 23:36:12.698 [error] #136: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 23:41:12.708 [error] #137: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 23:46:12.718 [error] #138: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 23:51:12.733 [error] #139: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-12 23:56:12.745 [error] #140: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 00:01:12.748 [error] #141: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 00:06:12.751 [error] #142: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 00:11:12.755 [error] #143: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 00:16:12.758 [error] #144: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 00:21:12.769 [error] #145: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 00:26:12.774 [error] #146: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 00:31:12.779 [error] #147: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 00:36:12.790 [error] #148: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 00:41:12.799 [error] #149: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 00:46:12.809 [error] #150: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 00:51:12.819 [error] #151: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 00:56:12.829 [error] #152: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 01:01:12.840 [error] #153: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 01:06:12.850 [error] #154: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 01:11:12.860 [error] #155: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 01:16:12.864 [error] #156: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 01:21:12.874 [error] #157: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 01:26:12.884 [error] #158: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 01:31:12.894 [error] #159: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 01:36:12.904 [error] #160: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 01:41:12.914 [error] #161: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 01:46:12.924 [error] #162: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 01:51:12.934 [error] #163: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 01:56:12.944 [error] #164: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 02:01:12.954 [error] #165: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 02:06:12.965 [error] #166: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 02:11:12.975 [error] #167: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 02:16:12.985 [error] #168: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 02:21:12.995 [error] #169: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 02:26:13.005 [error] #170: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 02:31:13.016 [error] #171: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 02:36:13.026 [error] #172: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 02:41:13.036 [error] #173: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 02:46:13.039 [error] #174: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 02:51:13.049 [error] #175: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 02:56:13.059 [error] #176: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 03:01:13.069 [error] #177: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 03:06:13.079 [error] #178: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 03:11:13.089 [error] #179: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 03:16:13.099 [error] #180: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 03:21:13.104 [error] #181: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 03:26:13.115 [error] #182: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 03:31:13.124 [error] #183: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 03:36:13.134 [error] #184: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 03:41:13.144 [error] #185: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 03:46:13.154 [error] #186: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 03:51:13.164 [error] #187: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 03:56:13.174 [error] #188: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 04:01:13.184 [error] #189: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 04:06:13.194 [error] #190: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 04:11:13.204 [error] #191: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 04:16:13.215 [error] #192: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 04:21:13.225 [error] #193: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 04:26:13.234 [error] #194: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 04:31:13.246 [error] #195: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 04:36:13.249 [error] #196: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 04:41:13.252 [error] #197: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 04:46:13.262 [error] #198: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 04:51:13.266 [error] #199: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 04:56:13.271 [error] #200: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 05:01:13.276 [error] #201: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 05:06:13.286 [error] #202: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 05:11:13.295 [error] #203: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 05:16:13.305 [error] #204: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 05:21:13.315 [error] #205: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 05:26:13.318 [error] #206: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 05:31:13.329 [error] #207: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 05:36:13.339 [error] #208: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 05:41:13.349 [error] #209: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 05:46:13.359 [error] #210: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 05:51:13.369 [error] #211: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 05:56:13.379 [error] #212: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 06:01:13.390 [error] #213: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 06:06:13.400 [error] #214: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 06:11:13.409 [error] #215: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 06:16:13.419 [error] #216: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 06:21:13.430 [error] #217: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 06:26:13.440 [error] #218: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 06:31:13.450 [error] #219: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 06:36:13.460 [error] #220: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 06:41:13.470 [error] #221: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 06:46:13.480 [error] #222: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 06:51:13.490 [error] #223: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 06:56:13.500 [error] #224: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 07:01:13.510 [error] #225: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 07:06:13.520 [error] #226: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 07:11:13.531 [error] #227: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 07:16:13.541 [error] #228: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 07:21:13.551 [error] #229: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 07:26:13.561 [error] #230: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 07:31:13.564 [error] #231: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 07:36:13.574 [error] #232: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 07:41:13.584 [error] #233: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 07:46:13.594 [error] #234: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 07:51:13.604 [error] #235: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 07:56:13.614 [error] #236: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 08:01:13.625 [error] #237: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 08:06:13.629 [error] #238: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 08:11:13.639 [error] #239: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 08:16:13.649 [error] #240: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 08:21:13.659 [error] #241: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-07-13 08:26:13.669 [error] #242: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
